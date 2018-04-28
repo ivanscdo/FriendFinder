@@ -5,8 +5,8 @@ const   express    = require("express"),
 const   htmlRoutes = require("./app/routing/htmlRoutes"),
         apiRoutes  = require("./app/routing/apiRoutes");
 
-const   app  = express(),
-        PORT = 3000;
+const   app  = express();
+let     PORT = process.env.PORT || 3000;
 
 app.use(bodyParser.urlencoded({extended: true }));
 app.use(bodyParser.json());
