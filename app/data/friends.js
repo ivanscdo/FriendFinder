@@ -1,23 +1,25 @@
 var friends = [
     {
         name:"Xochitl",
-        photo:"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        photo:"https://f4.bcbits.com/img/0007277616_10.jpg",
         scores:[5,1,4,4,5,1,2,5,4,1]
         // scores:[1,2,5,4,1,5,1,4,4,5]
         
     },
     {
         name:"Xiomara",
-        photo:"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        photo:"https://d1i5hut471lhig.cloudfront.net/ffb4715c2cb64e6530a830e9cafd38583db05360.jpg",
         // scores:[1,4,5,2,1,5,4,4,1,5]
         scores:[1, 3, 2, 3, 4, 5, 5, 2, 1, 4]
         
     },
     {
         name:"Ximena",
-        photo:"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        photo:"http://gritaradio.com/files/2014/09/Ximena-Sari%C3%B1ana.jpg",
         // scores:[1,2,5,4,1,5,1,4,4,5]
         scores:[1,1,1,1,1,1,1,1,1,1]
+        // scores:[5, 3, 1, 4, 2, 5, 2, 1, 4, 3]
+        
         
 
         

@@ -141,13 +141,23 @@ router.post("/api/friends", (req, res) => {
     
 
     // console.log(mostCompatible());
-    // mostCompatible_index = mostCompatible();
+    mostCompatible_index = mostCompatible();
     // console.log(mostCompatible_index);
-    console.log(allFriends[mostCompatible()].name);
+    // console.log(allFriends[mostCompatible_index].name);    
+    // console.log(allFriends[mostCompatible()]);
+    // console.log(allFriends[mostCompatible()].photo);
+    console.log(allFriends[mostCompatible_index]);
+    
+    
 
 
 
-    res.send("Questions Answered! Finding Friends")
+
+    // res.send("Questions Answered! Finding Friends");
+    // res.send(allFriends[mostCompatible_indexOf]);
+    res.json(allFriends[mostCompatible_index]);
+    
+    
 })
     
 module.exports = router;
